@@ -14,7 +14,7 @@
 	<name>Empleados</name>
 	<description>Sistemade Gestion de Empleados</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -33,7 +33,7 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		
    <dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
@@ -55,12 +55,6 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
-
-		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<scope>runtime</scope>
-		</dependency>
        
 		
 	
